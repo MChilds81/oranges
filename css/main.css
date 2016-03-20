@@ -7,7 +7,6 @@ nav {
 	height: 80px;
 	background: #FE7E00;
 	border-bottom: 10px solid #F27000;
-	position: relative;
 	width: 100%;
 }
 .fa-lemon-o {
@@ -47,25 +46,26 @@ nav ul li a {
 	text-decoration: none;
 }
 section {
-	height: 490px;
+	height: 500px;
 	background: #F5F5F7;
+	display: block;
 }
 .searchRow {
 	height: 40px;
 	display: block;
 }
 .searchBox {
-	display: inline;
 	background: rgba(230,230,230,1);
 	width: 50px;
-	height: 100%;
+	height: 40px;
+	display: inline;
 }
 .fa-search {
 	display: inline;
 	color: rgba(175,175,175,.75);
 	background: rgba(230,230,230,1);
 	padding: 0;
-	margin: 0;
+	margin: 15px 0;
 	position: absolute;
 	right: 20px;
 }
@@ -78,6 +78,7 @@ input {
 	font-size: 15px;
 	font-family: 'Rokkitt', serif;
 	float: right;
+	padding: 15px;
 }
 
 section img {
